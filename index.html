@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Tema 2 - Formulario de HTML</title>
+</head>
+<body>
+    <form action="/">
+        <fieldset>
+            <legend>Formulario de Registro</legend>
+            <p>
+                <label for="nombre">Nombre de Usuario:</label><br />
+                <input type="text" placeholder="Ej:Andres" name="nombre"/>
+            </p>
+            <p>
+                <label for="edad">Edad:</label><br />
+                <input type="number" placeholder="Ej:21" name="edad"/>
+            </p>
+            <p>
+                <label for="frase">Frase Favorita:</label><br />
+                <textarea name="frase" cols="30" rows="5"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Reset">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
